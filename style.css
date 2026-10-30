@@ -1,0 +1,63 @@
+* {
+  background-color: #f4f4f4; 
+}
+h1{
+    color:red;
+}
+.nav-list li:first-child,
+.nav-list li:first-child a {
+    color:green;
+}
+
+.nav-list li:nth-child(2),
+.nav-list li:nth-child(2) a {
+    color: rgb(1, 25, 208);
+}
+
+.nav-list li:last-child,
+.nav-list li:last-child a{
+    color:rgb(209, 209, 13);
+}
+#first-post {
+    color:orange;
+}
+
+.post{
+    color:purple;
+}
+
+h3{
+    color:pink;
+}
+
+.color-list li:first-child,
+.color-list li:first-child a{
+    color:rgb(106, 106, 106)
+}
+
+.color-list li:nth-child(2),
+.color-list li:nth-child(2) a{
+    color:rgb(137, 72, 43);
+}
+
+.highlighted{
+    color:black;
+}
+.important-widget>h3{
+color:darkred;
+}
+
+h3+p{
+    color:darkred;
+}
+
+[placeholder="Белый"]{
+color:white;
+background-color:black;
+}
+
+.submit-btn{
+    color:black;
+    background-color: white;
+}
+
